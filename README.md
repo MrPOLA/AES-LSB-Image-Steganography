@@ -10,10 +10,19 @@ This project securely hides text messages inside images using AES encryption and
 
 ## 📂 File Structure
 - `AES_steganography.ipynb`: Full implementation in Colab
-- `main.py`: Python script version (optional)
 - `cover_image.png`: Sample input image
 - `stego_output.png`: Image with hidden message
 
-## 📦 Requirements
+---
+
+## 📦 Libraries Required
+
+| Library        | Purpose                                   |
+|----------------|-------------------------------------------|
+| `Pillow`        | Image processing and pixel manipulation   |
+| `pycryptodome`  | AES encryption/decryption (EAX mode)      |
+
+Install using:
+
 ```bash
 pip install pillow pycryptodome
