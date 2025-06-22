@@ -9,7 +9,7 @@ This project securely hides text messages inside images using AES encryption and
 - Implemented in Python using Google Colab
 
 ## 📂 File Structure
-- `steganography.ipynb`: Full implementation in Colab
+- `AES_steganography.ipynb`: Full implementation in Colab
 - `main.py`: Python script version (optional)
 - `cover_image.png`: Sample input image
 - `stego_output.png`: Image with hidden message
